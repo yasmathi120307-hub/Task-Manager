@@ -144,7 +144,7 @@ public class TaskManager implements TaskManagerInterface {
                     }
 
                 } else if (tolist.equals("3")) {
-                    TaskUtilities.listingstat(user, "To do");
+                    TaskUtilities.listingstat(user, "To Do");
 
                 } else if (tolist.equals("4")) {
                     TaskUtilities.listingstat(user, "In Progress");
@@ -345,4 +345,5 @@ public class TaskManager implements TaskManagerInterface {
             }
         }
     }
+
 }
